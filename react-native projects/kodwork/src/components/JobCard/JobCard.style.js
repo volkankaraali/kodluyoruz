@@ -1,0 +1,57 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container:{
+    flex:1,
+    flexDirection:'column',
+    padding:10,
+    borderWidth:1,
+    borderRadius:10,
+    margin:10,
+    backgroundColor:'#D1C4E9'
+  },
+  name:{
+    fontWeight:'bold',
+    fontSize:18,
+    color:'#212121',
+    marginBottom:5
+  },
+  company:{
+    fontWeight:'bold',
+    fontSize:15,
+    color:'#212121',
+    marginBottom:5
+  },
+  city:{
+    color:'#FFFFFF',
+    alignSelf:'flex-start',
+    padding:5,
+    borderWidth:1,
+    borderColor:'#FF9800',
+    borderRadius:8,
+    backgroundColor:'#FF9800',
+    marginBottom:5
+  },
+  footer:{
+    flex:1,
+    flexDirection:'row',
+    justifyContent:'space-between'
+  },  
+  level:{
+    color:'#FFFFFF',
+    padding:5,
+    borderWidth:1,
+    borderColor:'#FF9800',
+    borderRadius:8,
+    backgroundColor:'#FF9800',
+  },
+  categories:{
+    color:'#FFFFFF',
+    padding:5,
+    borderWidth:1,
+    borderColor:'#FF9800',
+    borderRadius:8,
+    backgroundColor:'#FF9800',
+  },
+  
+});
